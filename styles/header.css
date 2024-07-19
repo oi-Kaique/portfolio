@@ -1,0 +1,81 @@
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+header h2{
+    color:var(--brand-base-gray-600) ;
+    margin-bottom: 3.6rem;
+    font-family: "Asap", sans-serif;
+    font-size: 2.1rem;
+}
+
+header p{
+    color: var(--brand-color-red);
+    font-size: 1.70rem;
+    font-family: "Inconsolata", monospace ;
+    margin: 3.5rem 27rem;
+}
+
+header section p{
+    color: var(--brand-base-gray-500);
+    font-family:  "Maven Pro", sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+header section h3{
+    color: var(--brand-base-gray-600);
+    font-family: "Asap", sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.job{
+    width: 1300px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+section.job{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+    width: 1140px;
+}
+
+figcaption{
+    width: 100%; 
+}
+
+figcaption p{
+    margin: 0;
+}
+
+
+header img{
+    width: 330px;
+    border-radius: .8rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 325px;
+    width: 355px;
+    padding: 12px;
+    background-color: var(--brand-base-gray-300);
+    border-radius: .8rem;
+    transition: .4s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}

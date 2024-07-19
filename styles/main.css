@@ -1,0 +1,62 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 144px 0;
+    margin-top: 144px;
+    background: var(--Base-gray-100, #0D0E11);
+    min-height: 480px;
+}
+
+main p.Inconsolata  {
+    color: var(--Main-Red, #E3646E);
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+main h2 {
+    color: var(--Base-gray-600, #E2E4E9);
+    text-align: center;
+
+    font-family: "Asap", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+
+section#pg {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    padding: 20px; 
+    border-radius: 12px;
+    border: 2px solid var(--Base-gray-200, #16181D);
+    width: 280px;
+}
+
+main h3 {
+    color: var(--Base-gray-600, #E2E4E9);
+
+    font-family: "Asap", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: .9rem;
+}
+
+main p{
+    color: var(--Base-gray-500, #C0C4CE);
+
+    font-family: "Maven Pro";
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 140%; 
+    margin: .9rem;
+}

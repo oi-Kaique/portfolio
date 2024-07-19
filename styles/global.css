@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+
+
+    /* PRINCIPAL*/
+    --brand-color-red: #E3646E;
+    --brand-color-purple: #BB72E9;
+    --brand-color-blue: #3996DB;
+    --brand-color-green: #82BC4F;
+    --brand-color-yellow: #EABD5F;
+
+
+    /*BASE*/
+    --brand-base-gray-100: #0D0E11;
+    --brand-base-gray-200: #16181D;
+    --brand-base-gray-300: #292C34;
+    --brand-base-gray-400: #878EA1;
+    --brand-base-gray-500: #C0C4CE;
+    --brand-base-gray-600: #E2E4E9;
+
+    --font-title: "Asap", sans-serif;
+    --font-subtitle: "Inconsolata", monospace;
+    --text-md-sm: "Maven Pro", sans-serif;
+}
+
+body{
+    background: var(--brand-base-gray-200);
+    padding: 7.5rem 0;
+}
+
+p{
+   color: var(--brand-base-gray-500);
+}
+
+h1{
+    color: var(--brand-base-gray-600);
+    font-family: "Asap", sans-serif;
+    font-size: 5.4rem;
+    font-weight: 700;
+    margin: auto;
+}
